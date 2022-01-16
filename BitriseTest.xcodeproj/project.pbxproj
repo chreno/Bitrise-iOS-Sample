@@ -13,6 +13,7 @@
 		A1F9B10E25C380F400E21DE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F9B10D25C380F400E21DE4 /* Preview Assets.xcassets */; };
 		A1F9B11925C380F500E21DE4 /* BitriseTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B11825C380F500E21DE4 /* BitriseTestTests.swift */; };
 		A1F9B12425C380F500E21DE4 /* BitriseTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B12325C380F500E21DE4 /* BitriseTestUITests.swift */; };
+		ABFC2EAC13C9319B8401BB42 /* Pods_BitriseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C0C88EA3AF1967606E95A8 /* Pods_BitriseTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BE5CA51DB0AFE52083B8415 /* Pods-BitriseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTest.release.xcconfig"; path = "Target Support Files/Pods-BitriseTest/Pods-BitriseTest.release.xcconfig"; sourceTree = "<group>"; };
 		A1F9B10325C380F200E21DE4 /* BitriseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseTestApp.swift; sourceTree = "<group>"; };
 		A1F9B10825C380F200E21DE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		A1F9B11F25C380F500E21DE4 /* BitriseTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9B12325C380F500E21DE4 /* BitriseTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseTestUITests.swift; sourceTree = "<group>"; };
 		A1F9B12525C380F500E21DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C0C88EA3AF1967606E95A8 /* Pods_BitriseTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitriseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD70CE939C3822DDBEFB93A /* Pods-BitriseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTest.debug.xcconfig"; path = "Target Support Files/Pods-BitriseTest/Pods-BitriseTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFC2EAC13C9319B8401BB42 /* Pods_BitriseTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125165F9C63DA25A48580D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0C88EA3AF1967606E95A8 /* Pods_BitriseTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1F9B0FA25C380F200E21DE4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,8 @@
 				A1F9B11725C380F500E21DE4 /* BitriseTestTests */,
 				A1F9B12225C380F500E21DE4 /* BitriseTestUITests */,
 				A1F9B10425C380F200E21DE4 /* Products */,
+				F0A2338AC9034F3FD9192A19 /* Pods */,
+				125165F9C63DA25A48580D76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +145,16 @@
 			path = BitriseTestUITests;
 			sourceTree = "<group>";
 		};
+		F0A2338AC9034F3FD9192A19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBD70CE939C3822DDBEFB93A /* Pods-BitriseTest.debug.xcconfig */,
+				9BE5CA51DB0AFE52083B8415 /* Pods-BitriseTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F9B12825C380F500E21DE4 /* Build configuration list for PBXNativeTarget "BitriseTest" */;
 			buildPhases = (
+				BE1E764747ECC47C23A22E92 /* [CP] Check Pods Manifest.lock */,
 				A1F9B0FF25C380F200E21DE4 /* Sources */,
 				A1F9B10025C380F200E21DE4 /* Frameworks */,
 				A1F9B10125C380F200E21DE4 /* Resources */,
+				EC656FA87197EA3542DFE101 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE1E764747ECC47C23A22E92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitriseTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC656FA87197EA3542DFE101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitriseTest/Pods-BitriseTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitriseTest/Pods-BitriseTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitriseTest/Pods-BitriseTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1F9B0FF25C380F200E21DE4 /* Sources */ = {
@@ -414,6 +483,7 @@
 		};
 		A1F9B12925C380F500E21DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD70CE939C3822DDBEFB93A /* Pods-BitriseTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -437,6 +507,7 @@
 		};
 		A1F9B12A25C380F500E21DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE5CA51DB0AFE52083B8415 /* Pods-BitriseTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
