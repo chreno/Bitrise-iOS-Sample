@@ -490,7 +490,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BitriseTest/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BitriseTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -498,7 +498,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.test.BitriseTest;
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitrise.workflow.recipes.sample.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -514,7 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"BitriseTest/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BitriseTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -522,7 +522,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.test.BitriseTest;
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitrise.workflow.recipes.sample.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
