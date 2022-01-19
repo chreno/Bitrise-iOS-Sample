@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0FDBC72798B64E00393472 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0FDBB32795613C00393472 /* Alamofire.xcframework */; };
+		7D0FDBC82798B64E00393472 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0FDBB32795613C00393472 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1F9B10725C380F200E21DE4 /* BitriseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */; };
 		A1F9B10925C380F200E21DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10825C380F200E21DE4 /* ContentView.swift */; };
 		A1F9B10B25C380F400E21DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F9B10A25C380F400E21DE4 /* Assets.xcassets */; };
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7D0FDBC92798B64E00393472 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D0FDBC82798B64E00393472 /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7D0FDBB32795613C00393472 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		9BE5CA51DB0AFE52083B8415 /* Pods-BitriseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTest.release.xcconfig"; path = "Target Support Files/Pods-BitriseTest/Pods-BitriseTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0FDBC72798B64E00393472 /* Alamofire.xcframework in Frameworks */,
 				ABFC2EAC13C9319B8401BB42 /* Pods_BitriseTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +185,7 @@
 				A1F9B10025C380F200E21DE4 /* Frameworks */,
 				A1F9B10125C380F200E21DE4 /* Resources */,
 				EC656FA87197EA3542DFE101 /* [CP] Embed Pods Frameworks */,
+				7D0FDBC92798B64E00393472 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
