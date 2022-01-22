@@ -2,7 +2,7 @@
 
 Simple iOS Project  with working bitrise.yml included in the root of the project that builds iOS .ipa and runs tests.
 
-test
+test 2
 
 ## Bitrise Setup
 
